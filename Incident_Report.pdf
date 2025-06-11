@@ -1,0 +1,27 @@
+**Incident Summary Report**
+
+**User:** JSmith  
+**Date:** June 10, 2025  
+**Incident ID:** SEC-2025-001  
+
+**Issue:**  
+User reported slow system performance and black box flashes.  
+Help Desk investigation found suspicious PowerShell activity.
+
+**Action Taken:**  
+- Escalated to security team  
+- PowerShell script quarantined  
+- User account disabled  
+- Forced password reset
+
+**Findings:**  
+- Script was phishing-based dropper  
+- Event logs verified automatic execution  
+- No lateral movement detected
+
+**Recommendations:**  
+- Conduct phishing training  
+- Implement GPO to restrict PowerShell  
+- Enable endpoint behavioral alerts
+
+**Investigator:** Raven Burton
